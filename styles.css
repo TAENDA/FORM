@@ -1,0 +1,32 @@
+body {background-image: url('https://c0.wallpaperflare.com/preview/325/23/780/backlit-blur-close-up-dark.jpg');
+}
+h1, p {text-align: center;
+        color: white
+}
+label,  select {display: block;
+}
+form {margin: 30px;
+    padding: 10px 0 10px;
+    opacity: 0.75;
+    background-color: #90E0EF;
+}
+
+.submit {diplay: block;
+        width: 100%; }
+input[type="text"] {margin-bottom: 15px;
+width: 100%
+}
+input[type="email"]  {margin-bottom: 15px;
+width: 100%}
+input[type="number"]  {margin-bottom: 15px;
+width: 100%}
+.dropdown {margin-bottom: 10px;
+width: 100%}
+.select {margin-top: 15px;
+width: 100%}
+.help {margin-top: 15px;}
+textarea {width: 100%;
+margin-bottom: 25px;}
+input[type="submit"] {width: 100%;}
+fieldset {border: none}
+.submit:hover {background-color: #FEE2C5;}
