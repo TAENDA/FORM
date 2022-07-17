@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Skylar gaming survey form</title>
+    <link rel="stylesheets" href="./styles.css" >
+  </head>
+  <body>
+  <h1 id='title'>SKYLAR  GAMING ACADEMY SURVEY FORM</h1>
+    <p id='description'>Thanking for taking the time to improve our services</p>
+    <form id="survey-form" action="emailto:taendacode@gmail.com">
+      <fieldset>
+      <label id="name-label">Name</label>
+      <input id="name" type="text" required placeholder="Enter your name" />
+       <label id="email-label">Email</label>
+       <input id="email" type="email" placeholder="Enter your email" required/>
+        <label id="number-label">Age <sub>(optional)</sub></label>
+        <input id="number" type="number" min="13" max="70" placeholder="Age" / >
+
+
+         <label>Which option best describes yoyr current role?
+           <select id="dropdown">
+             <option disabled >Select an option</option>
+             <option>Student</option>
+             <option>Full time player</option>
+             <option>Full time developer</option>
+             <option>Prefer not to say</option>
+             <option>Other</option>
+           </select>
+         </label>
+
+<label class="select">Would you recommend Skylar Gaming Academy to your friends 
+</label>
+<label><input type="radio" name="recommend" value="def" /> Definitely </label>
+<label><input type="radio" name="recommend" value="maybe"/> Maybe </label>
+<label><input type="radio" name="recommend" value="naa" /> Not at all </label>
+
+           <label class="help">What would you like to see improved?
+             <select class="select">
+               <option disabled >Select an option</option>
+               <option>Screen</option>
+               <option>Game version</option>
+               <option>Lighting</option>
+             </select>
+           </label>
+           </fieldset>
+     <fieldset id="fav-game">    
+          <label>What is your favourite game from Skylar gaming Academy? <sub>(check all the apply)</sub></label>
+          <label><input type="checkbox" value="gta"/>GTA V</label>
+          <label><input type="checkbox" value="fifa"/>FIFA 2022</label>
+          <label><input type="checkbox" value="forza"/>FORZA HORIZON</label>
+          <label><input type="checkbox" value="nfs"/>NEED FOR SPEED</label
+          <label><input type="checkbox" value="tg"/>TOP GEAR</label>
+          <label><input type="checkbox" value="naruto"/>NARUTO</label>
+          <label><input type="checkbox" value="dbz"/>DRAGON BALLZ</label>
+          <label><input type="checkbox" value="ninja"/>NINJA</label>
+          <label><input type="checkbox" value="sims"/>SIMS</label>
+          <label><input type="checkbox" value="the run"/>THE RUN</label>
+          <label><input type="checkbox" value="et2"/>EURO TRUCK 2</label>
+          </fieldset>
+<fieldset>
+           <label>Any comments or suggestions? 
+           </label>
+           <textarea rows="4" cols="20" ></textarea>
+
+      <input id="submit" type="submit">
+</fieldset>
+    
+    </form>
+  </body>
+</html>
